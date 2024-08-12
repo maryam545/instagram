@@ -8,9 +8,9 @@
   justify-content: center;
 }
 .container {
-  height: 100vh;
+  height: 145vh;
   width: 500px;
-  background-color: #e0e0e0;
+  background-color: #ececec;
   padding: 10px;
 }
 .menu {
@@ -52,10 +52,26 @@
   width: 100%;
   align-items: center;
 }
+.story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 125px;
+  width: 125px;
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+  border-radius: 50%;
+}
 .image-profile {
   height: 120px;
   width: 120px;
   border-radius: 50%;
+  border: 2px solid #fff;
 }
 .prof-info {
   width: 70%;
@@ -111,4 +127,88 @@
 }
 .bio {
   margin-top: 50px;
+}
+.Highlight {
+  display: flex;
+}
+.story1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85px;
+  width: 85px;
+  background: gray;
+  border-radius: 50%;
+  margin: 40px 10px;
+}
+.image-profile1 {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.Highlight-text {
+  margin-top: -20px;
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+}
+.video {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  border-top: 2px solid #b6b6b6;
+}
+.img-post {
+  border-bottom: 2px solid #b6b6b6;
+}
+.posts {
+  /* background-color: rebeccapurple; */
+  width: 100%;
+  height: 50vh;
+}
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.row1-img {
+  width: 33%;
+  height: 25vh;
+}
+.footer {
+  width: 100%;
+  height: 10vh;
+  background-color: #fff;
+  margin-top: 10px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-icon {
+  width: 35px;
+  height: 35px;
+}
+.footer-icon1 {
+  width: 50px;
+  height: 50px;
+}
+.my-page1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  background: gray;
+  border-radius: 50%;
+  margin: 40px 10px;
+}
+.image-profile2 {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  border: 2px solid #fff;
 }
